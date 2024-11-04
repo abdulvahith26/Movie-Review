@@ -25,7 +25,7 @@ function SearchPage() {
 
   const handleSearch = async () => {
     try {
-      const data = await searchMovies(query, page, type);
+      const data = await searchMovies(query, page, type,selectedGenre, selectedRating, selectedLanguage);
       if (data.Response === 'True') {
         setMovies(data.Search);
         setTotalResults(parseInt(data.totalResults, 10));
