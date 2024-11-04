@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { searchMovies } from '../api';
 import Pagination from '../components/Pagination';
-import Navbar from '../Components/NavBar';
-import MovieCard from '../Components/Moviecard';
+import Navbar from '../Components/Navbar';
+import MovieCard from '../Components/MovieCard';
 
 const genres = ["Action", "Comedy", "Drama", "Horror", "Romance", "Sci-Fi", "Thriller"];
 const ratings = ["G", "PG", "PG-13", "R", "NC-17"];
