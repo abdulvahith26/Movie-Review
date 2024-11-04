@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SearchPages from './Pages/Searchpage';
+import Searchpages from './Pages/Searchpage';
 import MovieDetails from './Pages/MovieDetails';
 import Navbar from './Components/Navbar';
 
