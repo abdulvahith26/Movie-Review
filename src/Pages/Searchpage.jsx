@@ -1,7 +1,7 @@
 // src/pages/SearchPage.jsx
 import React, { useState, useEffect } from 'react';
-import { searchMovies } from '../api';
-import Pagination from '../components/Pagination';
+import { searchMovies } from '../Api';
+import Pagination from '../Components/Pagination';
 import Navbar from '../Components/Navbar';
 import MovieCard from '../Components/MovieCard';
 
