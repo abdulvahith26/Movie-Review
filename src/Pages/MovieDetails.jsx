@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { getMovieDetails } from '../api';
 import { useParams } from 'react-router-dom';
-import Navbar from '../Components/NavBar';
+import Navbar from '../Components/Navbar';
 
 function MovieDetails() {
   const { id } = useParams();
