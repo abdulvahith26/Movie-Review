@@ -1,6 +1,6 @@
 // src/pages/MovieDetails.jsx
 import React, { useEffect, useState } from 'react';
-import { getMovieDetails } from '../api';
+import { getMovieDetails } from '../Api';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 
